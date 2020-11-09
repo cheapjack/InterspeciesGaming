@@ -1,5 +1,7 @@
 ## DNA Play
 
+[![asciicast](https://asciinema.org/a/308287.svg)](https://asciinema.org/a/308287)
+
 
 Experimenting with visualising the Muscular Dystrophy human genome in text using the terminal.
 
