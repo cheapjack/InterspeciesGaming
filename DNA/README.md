@@ -5,14 +5,14 @@
 
 Experimenting with visualising the Muscular Dystrophy human genome in text using the terminal.
 
-Text analysis from the command line is a core skill in computer science, and it also is consquently a core skill in bioinformatics. Im interested in how a beginner in the world of bash scripts and the linux or UNIX (MacOS) command line.
+Text analysis from the command line is a core skill in computer science, and it also likely a skill in bioinformatics. Im interested in how a beginner in the world of bash scripts and the linux/UNIX (MacOS) command line might start engaging with bioinformatics in some way.
 
 If you're interested there's a great tutorial in [linuxcommand](https://linuxcommand.org) and learning Vim [Vim Tutorial](https://www.linux.com/training-tutorials/vim-101-beginners-guide-vim/)
 
 
-I did some animations above with this [drawHelix](https://github.com/cheapjack/InterspeciesGaming/blob/master/DNA/drawHelix.sh) bash script from [BioSyntax](http://biosyntax.org) which i then screenrecorded with [asciicinema](asciinema.org/) which you can install  via [PipX](https://pypi.org/project/pipx/).
+I did some animations above with this [drawHelix](https://github.com/cheapjack/InterspeciesGaming/blob/master/DNA/drawHelix.sh) bash script from [BioSyntax](http://biosyntax.org) which i then screenrecorded with [asciicinema](asciinema.org/) which you can install  via [PipX](https://pypi.org/project/pipx/). It's really like treating code like a text adventure and I wonder where else this could go if you had a deeper literacy in the field.
 
-I like how it stays with the trouble of material practices of vim, git, fasta  & bash files in the abstractions and necessary reductions of bioinfomatics. 
+I like how it stays with the trouble of material practices of vim, git, `.fasta`  & bash scripts in the abstractions and necessary reductions of bioinfomatics. 
 
 ### How to use
 
@@ -35,3 +35,5 @@ Display the `.fasta` file to standard OUT
 eg. `$ ./drawHelix MuscularDystrophy.fasta` 
 
 Quit with `ctrl` & `c`
+
+
