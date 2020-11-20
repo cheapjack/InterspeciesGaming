@@ -46,27 +46,48 @@ Now download the [drawHelix.sh](https://raw.githubusercontent.com/cheapjack/Inte
 
 Now in a Terminal window (in the Terminal application) you'll get a prompt like
 
-`my-macbook-pro:~ MyName$  ` you can now type in commands straight into the command line but be careful not to type any old thing you can cause damage if you dont know what you're typing! 
+```
+my-macbook-pro:~ MyName$  
+``` 
 
-So type `ls` into the flashing prompt and hit return/enter so it looks a bit like this `my-macbook-pro:~ ls` and it will list all the files in whatever directory you are in.
+you can now type in commands straight into the command line but be careful not to type any old thing you can cause damage if you dont know what you're typing! 
+
+So typing `ls` into the flashing prompt followed by return/enter runs the list command. So before you hit enter it looks a bit like this 
+
+```
+my-macbook-pro:~ MyName$ ls
+``` 
+
+and it will list all the files in whatever directory you are in.
 
 Now you need to find a `.fasta` file so go to the gene you want and scroll down to the little gene browser window at the bottom of the website and select the FASTA option and save it to your Desktop. Rename it to something friendly. Make sure the file ends in `.fa` or `.fasta`. Put it on your Desktop for now call it `DNAtest.fa` maybe 
 
 ![Selecting a FASTA download](images/DownloadFasta.png)
 
-Move to your desktop folder
+In Terminal, Move to your desktop folder by typing
 
 `cd ~/Desktop`
 
-List all your files and you'll see a text list of whatevers there and the file `drawHelix.sh` and the fasta file you downloaded called `DNAtest.fa`
 
-`ls`
+List all your files `ls` and you'll see a text list of whatevers there and the file `drawHelix.sh` and the fasta file you downloaded called `DNAtest.fa`
+
 
 There are plenty of [tutorials](https://www.macworld.co.uk/how-to/how-use-terminal-on-mac-3608274/) on using the Terminal, and if you really want to learn more there's [linuxcommand](https://linuxcommand.org/) but just to get this working:
 
-Add permissions to `drawHelix.sh` shell script
+Next add permissions to the `drawHelix.sh` shell script
 
-`$ chmod 755 drawHelix.sh` this makes you able to run the script from the Terminal and reads out the `.fasta` file line by line to the screen.
+```
+chmod 755 drawHelix.sh
+``` 
+
+Now you can run the script from the Terminal and it will 'read out the `.fasta` file line by line to the screen. To do this type:
+
+```
+./drawHelix.sh DNAtest.fa
+```
+You can change it to read another file, just change the file name.
+
+It takes a long time to read it out, it's a long file! You can also open other terminal windows and run it at the same time. You could then capture the screen, use chroma keying maybe. 
 
 Quit by pressing `ctrl` & `c`
 
